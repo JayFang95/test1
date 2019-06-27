@@ -3,7 +3,7 @@ package cn.jayfang.domain;
 public class Manager {
 
     private String Sex;
-    private String username;
+    private String name;
     private String role;
 
     public String getSex() {
@@ -14,12 +14,12 @@ public class Manager {
         Sex = sex;
     }
 
-    public String getUsername() {
-        return username;
+    public String getName() {
+        return name;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getRole() {
