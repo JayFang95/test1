@@ -1,7 +1,12 @@
 package cn.jayfang.domain;
 
+/**
+ * 这个一个测试模块
+ */
 public class User {
+    //用户名
     private String username;
+    //密码
     private String password;
 
     public String getUsername() {
